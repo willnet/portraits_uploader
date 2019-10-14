@@ -1,24 +1,15 @@
-# README
+# portrais_uploader
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Ruby on Rails 6 エンジニア 養成読本：書籍案内｜技術評論社](https://gihyo.jp/book/2019/978-4-297-10869-4) 内の一般記事「押さえておきたい！Rails 6で改善された機能一覧」で紹介しているActive Storageの機能を試すサンプルアプリケーションです。
 
-Things you may want to cover:
+## 試し方
 
-* Ruby version
+```sh
+git clone https://github.com/willnet/portraits_uploader.git
+cd portraits_uploader
+./bin/setup
+./bin/rails s
+```
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+その他、[ImageMagick](https://imagemagick.org/)のインストールが必要です。
